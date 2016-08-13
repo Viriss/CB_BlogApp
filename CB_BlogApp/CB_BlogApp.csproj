@@ -55,6 +55,7 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="wfLoginPage.aspx" />
+    <Content Include="wfUserSetup.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +65,13 @@
     </Compile>
     <Compile Include="wfLoginPage.aspx.designer.cs">
       <DependentUpon>wfLoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfUserSetup.aspx.cs">
+      <DependentUpon>wfUserSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfUserSetup.aspx.designer.cs">
+      <DependentUpon>wfUserSetup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
